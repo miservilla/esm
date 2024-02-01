@@ -4,6 +4,8 @@
 # This source code is licensed under the MIT license found in the
 # LICENSE file in the root directory of this source tree.
 
+# Run on cli: python extract.py esm2_t33_650M_UR50D ../TC_FASTA.fasta outputs --repr_layers 33 --include per_tok --truncation_seq_length 5026
+
 import argparse
 import pathlib
 
