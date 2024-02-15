@@ -31,3 +31,4 @@ esm/dev
 *~
 outputs/FASTA_embeddings_20240213.csv
 Positive_Negative
+Positive_Negative_Mapping
