@@ -30,3 +30,4 @@ esm/dev
 *.log
 *~
 outputs/FASTA_embeddings_20240213.csv
+Positive_Negative
