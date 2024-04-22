@@ -78,7 +78,7 @@ def run(args):
     args.output_dir.mkdir(parents=True, exist_ok=True)
 
     # Open a new CSV file for writing embeddings
-    csv_file_path = args.output_dir / "FASTA_embeddings_20240213.csv"
+    csv_file_path = args.output_dir / "gene_sequence_homo_sapiens_emb.csv"
     with csv_file_path.open(mode='w', newline='') as csv_file:
         csv_writer = csv.writer(csv_file)
         # Write CSV header (if necessary)
